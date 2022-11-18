@@ -13,7 +13,7 @@ void main()
 	printf("\n1.Push:\n2.pop:\n3.peak:\n4.display:\n5.Exit");
 	while(i<=5)
 	{
-	 printf("one from one option:\n");
+	 printf("\none from one option:\n");
 	 scanf("%d",&ch);
 	 switch(ch)
 	 {
