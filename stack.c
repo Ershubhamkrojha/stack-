@@ -30,12 +30,9 @@ void main()
 	    case 5:   printf("Exit");
 		          break;
          deafult: printf("Enter valid choice:");
-	};
-	    
-	 	        
-    }
+	}; 	        
+       }
 }
-
 void push(int n)
 {
 	if(top==size-1)
@@ -59,11 +56,9 @@ void push(int n)
 			int data;
 			data=stack[top];
 			top=top-1;
-			printf("delete element=%d",data);
-			
+			printf("delete element=%d",data);	
 		}
 	}
-
 	void peak()
 	{
 		if(top==-1)
